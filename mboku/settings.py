@@ -26,9 +26,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'zl1i*wxv$^8b%a6d#26&-1h1*eqx5#gfzzqav$2)o0902w7ev2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# DEBUG = False
 
-ALLOWED_HOSTS = ['mboku.herokuapp.com']
+# ALLOWED_HOSTS = ['mboku.herokuapp.com']
+DEBUG = True
+
+ALLOWED_HOSTS = ['']
 
 # Application definition
 
